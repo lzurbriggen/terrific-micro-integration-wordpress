@@ -1,4 +1,23 @@
-terrific-micro-integration-wordpress
+Wordpress Terrific-Micro integration
 ====================================
 
-Integration of the terrific-micro-template into wordpress.
+Description
+------
+Roger Dudler integrated the terrific-concept into wordpress a while ago: https://github.com/rogerdudler/terrific-integration-wordpress
+Because his integration is based on a quite old version and I prefer the slim terrific-micro (from Roger as well) over the original one, I decided to integrate it myself.
+
+What came out is a basic wordpress theme built by using terrific components.
+The integration is very loose, it doesn't force you to use any terrific-functionality.
+
+Terrific-Micro:
+https://github.com/rogerdudler/terrific-micro
+
+Differences to Terrific-Micro
+------
+- Removed Views as well as partials because wordpress replaces this functionality
+- Added caching to app.css & app.js, because it will be used productive and not just for frontend development
+
+Disable Caching
+------
+You can disable caching by setting the DEV-variable in the index.php in the terrific folder to true.
+The $nocache variable you may stumble across is used by terrific-micro to cache less/scss results, so you shouldn't have to change this.
