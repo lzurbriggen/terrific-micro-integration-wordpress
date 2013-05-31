@@ -1,0 +1,14 @@
+{
+    "css": [
+        "reset.css",
+        "elements.less",
+        "*.css",
+        "*.less",
+        "*.scss"
+    ],
+    "js": [
+        "jquery.min.js",
+        "terrific.min.js",
+        "*.js"
+    ]
+}

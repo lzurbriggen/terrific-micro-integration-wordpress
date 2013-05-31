@@ -1,0 +1,3 @@
+<?php
+	module('Comments');
+?>

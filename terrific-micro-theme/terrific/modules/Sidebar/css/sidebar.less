@@ -1,0 +1,22 @@
+.mod-sidebar {
+
+	.openclose h2:after {
+		content: " [-]";
+	}
+	
+	.openclose.closed h2:after {
+		content: " [+]";
+	}
+
+	.closed + ul {
+		display: none;
+	}
+
+	.categories {
+		list-style-type: none;
+	}
+	
+	.cat-item {
+		margin: 5px 0;
+	}
+}
