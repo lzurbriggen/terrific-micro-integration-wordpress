@@ -6,7 +6,7 @@ Description
 Roger Dudler integrated the terrific-concept into wordpress a while ago: https://github.com/rogerdudler/terrific-integration-wordpress
 Because his integration is based on a quite old version and I prefer the slim terrific-micro (from Roger as well) over the original one, I decided to integrate it myself.
 
-What came out is a basic wordpress theme built by using terrific components.
+The result is a very basic wordpress theme built by using terrific components.
 The integration is very loose, it doesn't force you to use any terrific-functionality.
 
 Terrific-Micro:
@@ -21,3 +21,5 @@ Disable Caching
 ------
 You can disable caching by setting the DEV-variable in the index.php in the terrific folder to true.
 The $nocache variable you may stumble across is used by terrific-micro to cache less/scss results, so you shouldn't have to change this.
+
+As an administrator, you can flush the cache by clicking the button in the administration bar when you're logged in.
