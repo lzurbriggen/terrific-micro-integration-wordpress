@@ -17,9 +17,14 @@ Differences to Terrific-Micro
 - Removed Views as well as partials because wordpress replaces this functionality
 - Added caching to app.css & app.js, because it will be used productive and not just for frontend development
 
-Disable Caching
+Cache
 ------
-You can disable caching by setting the DEV-variable in the index.php in the terrific folder to true.
-The $nocache variable you may stumble across is used by terrific-micro to cache less/scss results, so you shouldn't have to change this.
+The theme caches the terrific-generated css- and javascript-files in the cache folder directly in the theme.
+Make sure this folder is accessible to read/write.
 
+### Enable/disable cache
+You can disable caching by setting the DEV-variable in the index.php in the terrific folder to true.
+The $nocache variable you may stumble across is used by terrific-micro to cache less/scss results.
+
+### Flush cache
 As an administrator, you can flush the cache by clicking the button in the administration bar when you're logged in.
