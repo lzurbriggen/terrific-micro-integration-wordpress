@@ -17,6 +17,12 @@ Differences to Terrific-Micro
 - Removed Views as well as partials because wordpress replaces this functionality
 - Added caching to app.css & app.js, because it will be used productive and not just for frontend development
 
+Apache Requirements
+------
+- .htaccess files have to be allowed (using "AllowOverride All" in your httpd.conf or vhosts configuration)
+- mod_rewrite needs to be enabled in your apache configuration
+- "Options FollowSymLinks" has to be enabled
+
 Cache
 ------
 The theme caches the terrific-generated css- and javascript-files in the cache folder directly in the theme.
