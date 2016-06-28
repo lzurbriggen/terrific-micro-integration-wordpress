@@ -20,7 +20,7 @@ Differences to Terrific-Micro
 Apache Requirements
 ------
 - .htaccess files have to be allowed (using "AllowOverride All" in your httpd.conf or vhosts configuration)
-- mod_rewrite needs to be enabled in your apache configuration
+- mod_rewrite, mod_filter, mod_deflate needs to be enabled in your apache configuration
 - "Options FollowSymLinks" has to be enabled
 
 Cache
